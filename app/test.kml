@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>Test Geospatial Data</name>
+
+        <Placemark>
+            <name>Test Point</name>
+            <Point>
+                <coordinates>80.2707,13.0827,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name>Test Line</name>
+            <LineString>
+                <coordinates>
+                    80.2707,13.0827,0
+                    80.2807,13.0927,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+
+        <Placemark>
+            <name>Test Polygon</name>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+                            80.2707,13.0827,0
+                            80.2807,13.0827,0
+                            80.2807,13.0927,0
+                            80.2707,13.0927,0
+                            80.2707,13.0827,0
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+
+    </Document>
+</kml>
